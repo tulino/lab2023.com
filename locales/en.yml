@@ -20,3 +20,18 @@ en:
     work-item:
       bulutfon-tel: Bulutfon Telecommunications Corp.
       visit-project: Visit project
+      diagnoscope-syp: Diagnoscope Symptom Checker Apps
+      button-work-with-us: Want us to work for you?
+      button-click: Click here to hire us
+  our-team:
+    read-history: lab2023 was founded in 2010.
+                  We care about quality, craft, and disciplined experimentation.
+    read-open-source: We are active contributors to open source software.
+    use-our-open-source: Use our open source software
+    button-join-us: Want to join our team?
+    button-apply: Click here to apply
+  contact-us:
+    name-of-firm: Lab2023 Information Technologies Corp.
+    adress-firm: Pamukkale Teknokent D-Block 116 Denizli / TURKEY
+    mail-phone: hello@lab2023.com | +90 850 885 0 522
+    coordinate-firm: 37.7386245, 29.0928367
