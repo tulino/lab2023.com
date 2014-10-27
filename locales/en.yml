@@ -1,0 +1,22 @@
+---
+en:
+  navigation:
+    our_works: Our Works
+    our_team: Our Team
+    blog: Blog
+    contact_us: Contact Us
+  links:
+    - '#our-works'
+    - '#our-team'
+    - '/blog.html'
+    - '#contact-us'
+  our_work:
+    read_more: Read more in our playbook
+    content: We are a team of marketers, designers and developers.
+             Clients hire us to develop their web and mobile apps.
+             We sketch, prototype, make and ship working software.
+             After shipping software, we measure and maintain
+             use of software. See some examples below.
+    work-item:
+      bulutfon-tel: Bulutfon Telecommunications Corp.
+      visit-project: Visit project
