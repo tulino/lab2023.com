@@ -5,11 +5,6 @@ en:
     our_team: Our Team
     blog: Blog
     contact_us: Contact Us
-  links:
-    - '#our-works'
-    - '#our-team'
-    - '/blog.html'
-    - '#contact-us'
   our_work:
     read_more: Read more in our playbook
     content: We are a team of marketers, designers and developers.
