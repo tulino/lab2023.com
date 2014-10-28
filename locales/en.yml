@@ -1,10 +1,20 @@
 ---
 en:
   navigation:
+    toggle: Toggle navigation
     our_works: Our Works
     our_team: Our Team
     blog: Blog
     contact_us: Contact Us
+    hire_us: Hire Us
+  header:
+    say-hello: SAY HELLO TO
+    name-of-firm: LAB2023
+    content: People who love
+    work-area:
+      design: designing
+      product: product
+    scroll-down: SCROLL DOWN
   our_work:
     read_more: Read more in our playbook
     content: We are a team of marketers, designers and developers.
@@ -77,3 +87,6 @@ en:
     adress-firm: Pamukkale Teknokent D-Block 116 Denizli / TURKEY
     mail-phone: hello@lab2023.com | +90 850 885 0 522
     coordinate-firm: 37.7386245, 29.0928367
+  footer:
+    name: © 2014 LAB2023, CORP.
+    content: The all designs, materials and contents trademarks of lab2023, corp.
