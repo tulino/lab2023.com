@@ -16,9 +16,7 @@
           %div.work-item
             %h3= t('our_work.work-item.bulutfon-tel')
             %p
-              Bulutfon is internet based phone provider which authorized by public authority.
-              Our services are voip calls, ip pbx, ivr, voice mail, fax, voice recording and development tools
-              for developers (API, SDK). All software infrastructure of Bulutfon is developed by Lab2023.
+              = t('our_work.work-item.bulutfon-info')
             %p
               = link_to 'https://www.bulutfon.com/', target: '_blank' do
                 = t('our_work.work-item.visit-project')
@@ -31,10 +29,7 @@
           %div.work-item
             %h3= t('our_work.work-item.diagnoscope-syp')
             %p
-              Diagnoscope is a symptom checker application. It analyzes the symptoms that you selected,
-              compares them with those of any known disease, informs you about your health status and
-              directs you to the appropriate specialist. We develop web, iPhone, iPad apps for end
-              users and admin panel for admins.
+              = t('our_work.work-item.diagnoscope-info')
             %p
               = link_to 'http://www.diagnoscope.com/', target: '_blank' do
                 = t('our_work.work-item.visit-project')
@@ -69,53 +64,43 @@
               .image-filter
               = image_tag 'team/onur-ozgur-ozkan.jpg', class: 'img-circle'
             .member-info.popover-content
-              %h4.title Onur Ozgur OZKAN | Co-founder
+              %h4.title= t('our-team.member.onur-ozgur-ozkan')
               %p.content
-                I graduated in economics. I am the creator of Kebab Project, co-founder & CEO at Lab2023 and Bulutfon, public speaker, open source developer.
-
+                = t('our-team.member.about.onur-ozgur-ozkan')
           %li{ data: {toggle: :popover, placement: :top} }
             = link_to 'http://www.twitter.com/toziserikan', target: '_blank' do
               .image-filter
               = image_tag 'team/tayfun-ozis-erikan.jpg', class: 'img-circle'
             .member-info.popover-content
-              %h4.title Tayfun Ozis ERIKAN | Co-founder &amp; CEO
+              %h4.title= t('our-team.member.tayfun-ozis-erikan')
               %p.content
-                Web Developer, Graphic & Web Designer
-                Ruby, Ruby on Rails, Php, Zend Framework, CodeIgniter, Doctrine,
-                Ext JS & Sencha Touch, Sass, Compass User
-                Kebab Project Developer, GitHub User, Blogger, A Public Speaker
-                The Co-Founder of Lab2023 Information Technologies Inc.
-                and Bulutfon Telecommunication Inc.
+                = t('our-team.member.about.tayfun-ozis-erikan')
 
           %li{ data: {toggle: :popover, placement: :top} }
             = link_to 'http://www.twitter.com/baygunm', target: '_blank' do
               .image-filter
               = image_tag 'team/murat-kemal-baygun.jpg', class: 'img-circle'
             .member-info.popover-content
-              %h4.title Murat Kemal BAYGUN | COO
+              %h4.title= t('our-team.member.murat-kemal-baygun')
               %p.content
-                He loves software development and leading software development. He supports continuous improvement and lean software development. He has a daughter and a son.
-
+                = t('our-team.member.about.murat-kemal-baygun')
           %li{ data: {toggle: :popover, placement: :top} }
             = link_to 'http://www.twitter.com/dilekmuhammet', target: '_blank' do
               .image-filter
               = image_tag 'team/muhammet-dilek.jpg', class: 'img-circle'
             .member-info.popover-content
-              %h4.title Muhammet DILEK | Web &amp; Mobile Developer
+              %h4.title= t('our-team.member.muhammet-dilek')
               %p.content
-                He likes to develop web based applications with Ruby on Rails. He extremely likes Apple products.
-                He is blogging in his spare time.
+                = t('our-team.member.about.muhammet-dilek')
 
           %li{ data: {toggle: :popover, placement: :top} }
             = link_to 'http://www.twitter.com/hamitturkukaya', target: '_blank' do
               .image-filter
               = image_tag 'team/hamit-turku-kaya.jpg', class: 'img-circle'
             .member-info.popover-content
-              %h4.title Hamit Turku KAYA | Web &amp; Mobile Developer
+              %h4.title= t('our-team.member.hamit-turku-kaya')
               %p.content
-                He likes to develop web &amp; mobile applications also he is interesting with game development.
-                He works with Ruby on Rails, PHP  and Javascript Frameworks on web based applications and Java(Android), Objective - C (IOS)
-                on mobile applications.
+                = t('our-team.member.about.hamit-turku-kaya')
 
 
           %li{ data: {toggle: :popover, placement: :top} }
@@ -123,75 +108,68 @@
               .image-filter
               = image_tag 'team/serdar-yagci.jpg', class: 'img-circle'
             .member-info.popover-content
-              %h4.title Serdar YAGCI | Web Developer
+              %h4.title= t('our-team.member.serdar-yagci')
               %p.content
-                He knows PHP, Objective - C and Javascript Frameworks. He is photographer and traveler.
+                = t('our-team.member.about.serdar-yagci')
 
           %li{ data: {toggle: :popover, placement: :top} }
             = link_to 'http://www.twitter.com/safiyesepetci', target: '_blank' do
               .image-filter
               = image_tag 'team/safiye-sepetci.jpg', class: 'img-circle'
             .member-info.popover-content
-              %h4.title Safiye SEPETCI | Web Developer
+              %h4.title= t('our-team.member.safiye-sepetci')
               %p.content
-                She likes to use front-end technologies like  HTML5, CSS3, Haml, Sass, Javascript.
+                = t('our-team.member.about.safiye-sepetci')
 
           %li{ data: {toggle: :popover, placement: :top} }
             = link_to 'http://www.twitter.com/leylakapi', target: '_blank' do
               .image-filter
               = image_tag 'team/leyla-kapi.jpg', class: 'img-circle'
             .member-info.popover-content
-              %h4.title Leyla KAPI | Web Developer
+              %h4.title= t('our-team.member.leyla-kapi')
               %p.content
-                She likes to use front-end technologies like  HTML5, CSS3, Haml, Sass, Javascript. She interested in Ruby, Ruby on Rails.
-
+                = t('our-team.member.about.leyla-kapi')
           %li{ data: {toggle: :popover, placement: :top} }
             = link_to 'http://www.twitter.com/marjinal1st', target: '_blank' do
               .image-filter
               = image_tag 'team/ahmet-sezgin-duran.jpg', class: 'img-circle'
             .member-info.popover-content
-              %h4.title Ahmet Sezgin DURAN | Web Developer
+              %h4.title= t('our-team.member.ahmet-sezgin-duran')
               %p.content
-                Web Developer. Interested in high-level programming languages such as Ruby, Python and Java. Supports free software and uses GNU/Linux. Likes back-end coding and developing-playing indie games. Fan of Nintendo and Valve games and a true Otaku.
-
+                = t('our-team.member.about.ahmet-sezgin-duran')
           %li{ data: {toggle: :popover, placement: :top} }
             = link_to 'http://www.twitter.com/klapancg', target: '_blank' do
               .image-filter
               = image_tag 'team/clara-isabel-pantoja.jpg', class: 'img-circle'
             .member-info.popover-content
-              %h4.title Clara Isabel PANTOJA | Graphic Designer
+              %h4.title= t('our-team.member.clara-isabel-pantoja')
               %p.content
-                Creative and proactive person of graphic communication design and emphasis in multimedia design. Interested in interactive design and information technology projects. Has great motivation for photography, visual effects and web design. Likes music, museums and the integration of art and technology in her work.
-
+                = t('our-team.member.about.clara-isabel-pantoja')
           %li{ data: {toggle: :popover, placement: :top} }
             = link_to 'https://twitter.com/kamilagareeva1', target: '_blank' do
               .image-filter
               = image_tag 'team/kamila-gareeva.jpg', class: 'img-circle'
             .member-info.popover-content
-              %h4.title Kamila GAREEVA | Graphic Designer
+              %h4.title= t('our-team.member.kamila-gareeva')
               %p.content
-                Artist, 2D animator, graphic - designer
+                = t('our-team.member.about.kamila-gareeva')
 
           %li{ data: {toggle: :popover, placement: :top} }
             = link_to 'https://twitter.com/olcay_yaclo', target: '_blank' do
               .image-filter
               = image_tag 'team/olcay-oransoy.jpg', class: 'img-circle'
             .member-info.popover-content
-              %h4.title Olcay ORANSOY | Intern
+              %h4.title= t('our-team.member.olcay-oransoy')
               %p.content
-                Olcay is probably the youngest Ruby on Rails developer in the country.
-                He is our youngest intern. He started to use computer at the age of 3.
-                He works hard on developing his skills on every aspects of web development.
-                But his main area of interest is backend systems.
-                He is a Hot Wheels collectionner and one of the biggest Top Gear fans.
+                = t('our-team.member.about.olcay-oransoy')
           %li{ data: {toggle: :popover, placement: :top} }
             = link_to 'http://www.twitter.com/isoakbudak', target: '_blank' do
               .image-filter
               = image_tag 'team/ismail-akbudak.jpg', class: 'img-circle'
             .member-info.popover-content
-              %h4.title Ismail AKBUDAK | Web Developer
+              %h4.title= t('our-team.member.ismail-akbudak')
               %p.content
-                Software Developer, PHP, CodeIgniter, Ruby On Rails, JavaScript, JQuery, Founder Of Hepgezelim. I love to use Ubuntu, to follow new technologies and electronics.
+                = t('our-team.member.about.ismail-akbudak')
         %p.extra
           = link_to 'mailto:hello@lab2023.com', class: 'btn btn-primary big-buttons' do
             %strong= t('our-team.button-join-us')
