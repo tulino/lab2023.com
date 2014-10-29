@@ -1,5 +1,3 @@
-activate :i18n, :path => "/:locale/", :mount_at_root => :en
-
 ###
 # Compass
 ###
@@ -46,6 +44,9 @@ activate :directory_indexes
 
 # Reload the browser automatically whenever files change
 activate :livereload
+
+# i18n
+activate :i18n, path: '/:locale/', mount_at_root: false
 
 # Methods defined in the helpers block are available in templates
 # helpers do
