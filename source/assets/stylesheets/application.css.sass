@@ -102,6 +102,43 @@ header
           background-color: $base-color
           &:hover
             background-color: darken($base-color, 10)
+#tr_lang
+  width: 25px
+  height: 25px
+  border: 2px solid #f6f6f6
+  border-radius: 12px
+  background-color: #f6f6f6
+  margin-left: 5px
+  margin-top: 7px
+
+  a
+    font:
+      size: 13px !important
+      weight: 400 !important
+    position: absolute
+    color: #22303e
+    top: -7.5px
+    left: -5px
+    &:hover
+      width: 25px
+      height: 25px
+      border-radius: 12px
+      background: none
+#en_lang
+  @extend #tr_lang
+.header_nav
+  position: absolute
+  top: 2px
+  right: 10px
+  #tr_lang
+    a
+      position: absolute
+      top: -22px
+      left: -12px
+.simple
+  position: absolute
+  top: 5px
+  left: 5px
 
 .contents
   text-align: center
@@ -293,3 +330,12 @@ body#blog
     float: left
     top: 0px
     left: 100px
+@media  screen and (max-width: 769px) and (max-width: 400px)
+  .header_nav
+    position: absolute
+    right: 19px
+    #tr_lang
+      a
+        position: absolute
+        top: -8px
+        left: -12px

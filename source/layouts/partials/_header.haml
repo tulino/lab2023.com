@@ -1,17 +1,28 @@
 %header#header.header
   .wrapper
+    %i.simple
+      = t('header.simple')
+    %ul.nav.navbar-nav.navbar-right.header_nav
+      %li#tr_lang
+        = link_to 'TR', '/tr/index.html'
+      %li#en_lang
+        = link_to 'EN', '/en/index.html'
     .heroes
       = image_tag 'logo.png', class: 'logo'
       %h1
         = t('header.say-hello')
-        %strong= t('header.name-of-firm')
+        %strong= t('header.name-of-firm', name: t('name'))
+        = t('header.hello')
       %hr
       %h2
         = t('header.content')
+        = t('header.work-area.product_tr')
         %strong
           %span.a= t('header.work-area.design')
-          %span.b & developing
+          %span.b &
+          = t('header.work-area.developing')
         = t('header.work-area.product')
+        = t('header.content_tr', content_tur: t('content_tur'))
       %p.scroll-down
         %a{href: '#our-works'}
           %span= t('header.scroll-down')
@@ -43,3 +54,7 @@
           %li
             =link_to 'mailto:hello@lab2023.com', class: 'btn' do
               = t('navigation.hire_us')
+          %li#tr_lang
+            = link_to 'TR', '/tr/index.html'
+          %li#en_lang
+            = link_to 'EN', '/en/index.html'

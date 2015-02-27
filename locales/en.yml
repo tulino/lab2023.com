@@ -10,10 +10,15 @@ en:
   header:
     say-hello: SAY HELLO TO
     name-of-firm: LAB2023
+    simple: "Simple is Perfect"
+    hello: ""
     content: People who love
+    content_tr: ""
     work-area:
       design: designing
       product: product
+      product_tr: ""
+      developing: developing
     scroll-down: SCROLL DOWN
   our_work:
     read_more: Read more in our playbook
