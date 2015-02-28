@@ -17,12 +17,6 @@
   .contents-alternate
     .container.contents
       #carousel-example-generic.carousel.slide{'data-ride' => 'carousel'}
-        %ol.carousel-indicators
-          %li.active{'data-slide-to' => '0', 'data-target' => '#carousel-example-generic'}
-          %li{'data-slide-to' => '1', 'data-target' => '#carousel-example-generic'}
-          %li{'data-slide-to' => '2', 'data-target' => '#carousel-example-generic'}
-          %li{'data-slide-to' => '3', 'data-target' => '#carousel-example-generic'}
-          %li{'data-slide-to' => '4', 'data-target' => '#carousel-example-generic'}
         .carousel-inner{:role => 'listbox'}
           .item.active
             %div.work-item
@@ -135,9 +129,9 @@
                   %strong Want us to work for you?
                   Click here to hire us
         %a.left.carousel-cntrl#left_carousel_arrow{'data-slide' => 'prev', 'data-target' => '#carousel-example-generic', :role => 'button'}
-          %i.fa.fa-arrow-left.fa-x
+          %i.fa.fa-arrow-circle-left
         %a.right.carousel-cntrl#right_carousel_arrow{'data-slide' => 'next', 'data-target' => '#carousel-example-generic', :role => 'button'}
-          %i.fa.fa-arrow-right.fa-x
+          %i.fa.fa-arrow-circle-right
 %section#our-team
   .container.contents
     .row
