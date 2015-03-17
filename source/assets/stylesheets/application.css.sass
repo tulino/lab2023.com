@@ -211,27 +211,28 @@ footer
 .carousel-indicators
   bottom: 90px !important
   position: relative
-.carousel-cntrl
-  width: 40px
-  height: 40px
-  border: 2px solid #287dc6
-  border-radius: 20px
-#left_carousel_arrow
-  position: absolute
-  top: 450px
-  left: -22px
-  .fa
+.position-arrow
+  position: relative
+  bottom: 405px
+  .left
+    float: left
     position: relative
-    top: 7px
-    color: #287dc6
-#right_carousel_arrow
-  position: absolute
-  top: 450px
-  right: 0
-  .fa
+    left: -30px
+  .right
+    float: right
     position: relative
-    top: 7px
-    color: #287dc6
+    right: -30px
+  .circler
+    width: 50px
+    height: 50px
+    border: 2px solid $base-color
+    border-radius: 50%
+    text-align: center
+    margin: auto
+    .fa
+      margin: 14px auto
+
+
 // Blog page overrides
 body#blog
   color: $base-font-color
